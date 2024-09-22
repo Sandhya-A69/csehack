@@ -1,0 +1,12 @@
+#diceCanvas {
+    border: 2px solid #333; /* Border color */
+    background-color: #f0f0f0; /* Background color */
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

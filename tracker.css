@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.expense-form, .expense-list {
+    margin-bottom: 20px;
+}
+
+.expense-form form {
+    display: table;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.expense-form label, .expense-list th {
+    font-weight: bold;
+}
+
+.expense-form input[type="number"], .expense-form input[type="text"], .expense-form input[type="date"] {
+    width: 100%;
+    padding: 5px;
+}
+
+.expense-form button {
+    padding: 8px 16px;
+    background-color:blueviolet;
+    color: orangered;
+    border: none;
+    cursor: pointer;
+}
+
+.expense-form button:hover {
+    background-color: #36a83c;
+}
+
+.expense-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.expense-list th, .expense-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.expense-list th {
+    background-color: #f2f2f2;
+}

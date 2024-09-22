@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affected - COVID-19 Data Portal</title>
+    <link rel="stylesheet" href="covid.css">
+</head>
+<body>
+    <h1>Affected - COVID-19 Data Portal</h1>
+
+    <div class="dropdown">
+        <label for="countries">Select Country:</label>
+        <select id="countries"></select>
+    </div>
+
+    <div class="chart-container">
+        <canvas id="chart"></canvas>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="covid.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccinated - COVID-19 Data Portal</title>
+    <link rel="stylesheet" href="covid.css">
+</head>
+<body>
+    <h1>Vaccinated - COVID-19 Data Portal</h1>
+
+    <div class="dropdown">
+        <label for="countries">Select Country:</label>
+        <select id="countries"></select>
+    </div>
+
+    <div class="chart-container">
+        <canvas id="chart"></canvas>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="covid.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neighboring Countries - COVID-19 Data Portal</title>
+    <link rel="stylesheet" href="covid.css">
+</head>
+<body>
+    <h1>Neighboring Countries - COVID-19 Data Portal</h1>
+
+    <div class="table-container">
+        <table id="neighboringTable">
+            <thead>
+                <tr>
+                    <th>Country</th>
+                    <th>Cases</th>
+                    <th>Deaths</th>
+                    <th>Recoveries</th>
+                    <th>Vaccinations</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data will be dynamically added here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="covid.js"></script>
+</body>
+</html>
+
+
+
